@@ -12,7 +12,6 @@ type Props = {
 }
 
 const Login = ({ providers }: Props) => {
-  console.log('THE PROVIDERS WHERE ARE YOU ?', providers)
   return (
     <div className="flex min-h-screen w-full flex-col items-center justify-center bg-black">
       <img className="mb-5 w-52" src="https://links.papareact.com/9xl" alt="" />
